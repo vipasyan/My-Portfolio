@@ -11,7 +11,7 @@ h1, h2, h3, h4 {
 
 
 p{
-	color: red;
+	color: green;
 
 }
 h2 {
@@ -100,6 +100,11 @@ h2 {
 	transition: all ease-in-out .2%;
 }
 
+.socialmedia{
+	height: 35px;
+	width: 35px;
+}
+
 .projects-grid{
 	display: grid;
 	grid-template-columns:50% 50%;
@@ -148,7 +153,9 @@ h2 {
 
 form input, textarea {
 	padding:5px;
-	border-radius: 5px;
+	#border-radius: 5px;
+	border-width:2px;
+	font-family:Verdana;
 	width: 240px;	
 }
 
