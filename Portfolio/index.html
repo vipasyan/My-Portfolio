@@ -1,25 +1,51 @@
 <!Doctype html>
 <html>
 <head> 
+
 <title> Portfolio </title>
 <link rel="stylesheet" href="styles.css" >
 <meta name= "viewport" content="width=display-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
-<div class= "container">
-<div class = "intro">
-<img class = "profile-picture" src = "https://avatars.githubusercontent.com/u/34027054?v=4/" />
-<h1 id="my-new-name"> Vipasyan Telaprolu </h1>
-<h3> Full stack web developer</h3>
-<h4> Lives in Germany</h4>
-<p> Please feel free to check </p>
+ <div class="topnav">
+  
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+     <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
 </div>
 
+<nav>
+<a href="index.html"> Home </a>
+ | 
+<a href="contents/projects.html"> Projects </a> 
+ | 
+<a href="index.html"> Resume </a> 
+ | 
+<a href="index.html"> About me </a> 
+ </nav>
+ 
+ 
+ 
+
+<div class= "container">
+<div class = "intro">
+<img class = "profile-picture" src = "https://avatars.githubusercontent.com/u/34027054?v=4/" alt="profile-picture"/>
+<h1 id="my-new-name"> Vipasyan Telaprolu </h1>
+<h3> Front-End Developer</h3>
+<h4> Lives in Germany</h4>
+<p> Please feel free to check </p>
 <hr/>
 
+</div>
+
 <div class ="about-grid">
+
 <div class= "i-am">
 <h3>  I am </h3>
 <ul class= "about-list"> 
@@ -28,9 +54,8 @@
 </ul>
 </div>
 
-
 <div class= "i-like">
-<h3> I like to </h3>
+<h3>  I like to  </h3>
 <ul class= "about-list">
 <li> Meet new people </li> 
 <li> Play guitar</li> 
@@ -44,27 +69,33 @@
 <h3 class= "projects-heading"> My Projects </h3>
 <div class= "projects-grid">
 
-<div class= "project-image-wrapper">
-<img class="project-image" src = "images/project-1.jpg"  width="250" height="250"/>
-<h3>File Security System <h3>
-</div>
+<!-- <div class= "project-image-wrapper">  -->
+ <!-- <img class="project-image" src = "images/project-1.jpg"  width="200" height="200"/> -->
+<!-- <h3>File Security System <h3> -->
+<!-- </div> -->
+<!-- <div class= "project-image-wrapper"> -->
+<!-- <img class="project-image" src = "images/project-2.jpg" width="200" height="200"/> -->
+<!-- <h3>Improving Aggregate Recommendations Using Ranking Based Techniques <h3> -->
+<!-- </div> -->
+
 
 <div class= "project-image-wrapper">
-<img class="project-image" src = "images/project-2.jpg" width="250" height="250"/>
-<h3>Improving Aggregate Recommendations Using Ranking Based Techniques <h3>
+<a href ="https://github.com/vipasyan/Machine-Learning"> <img class="project-image" src = "images/project-3.jpg" width="200" height="200"/></a>
+<h3>Machine Learning<h3>
 </div>
-
-<a href="https://github.com/vipasyan/Machine-Learning">
-    <div class="project-image-wrapper">
-      <img class="project-image" src="images/project-3.jpg" width="250" height="250"/>
-      <h3>Machine Learning</h3>
-    </div>
-  </a>
-  
 <div class= "project-image-wrapper">
-<img class="project-image" src = "images/project-4.jpg" width="250" height="250" />
+<a href ="https://github.com/eMoflon/emoflon-victory"><img class="project-image" src = "images/project-4.jpg" width="200" height="200" /></a>
 <h3>VICTORY <h3>
 </div>
+<div class= "project-image-wrapper">
+<a href ="https://github.com/vipasyan/PADrend"> <img class="project-image" src = "images/project-5.jpg" width="200" height="200"/> </a>
+<h3>PADrend<h3>
+</div>
+<div class= "project-image-wrapper">
+<a href ="https://github.com/vipasyan/Master-thesis-3D-reconstruction"> <img class="project-image" src = "images/project-5.PNG" width="200" height="200"/> </a>
+<h3>3D Surfels from NeRF<h3>
+</div>
+
 </div>
  </div>
  

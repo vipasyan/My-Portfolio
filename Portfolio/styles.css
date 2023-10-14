@@ -1,3 +1,4 @@
+
 body {
 	font-family: 'Noto Sans', sans-serif;
 	background:#caebf2;
@@ -24,8 +25,47 @@ h2 {
 #my-new-name{
 	color:blue;
 	}
-
 	
+	.fa-input {
+  font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+ .topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 15px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 5px 13px;
+  margin-top: 8px;
+  margin-right: 16px;
+ background: #ddd;
+  font-size: 17px;
+  border: 2px solid #c9e6ff;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #a9a9a9;
+}
+
+
+  .topnav input[type=text] {
+    border: 2px solid #c9e6ff;  
+  }
 .container{
 	max-width:840px;
 	margin: 0 auto;
@@ -48,6 +88,10 @@ h2 {
 .i-am {
 	text-align: center;
 }
+.i-like {
+	text-align: center;
+}
+
 
 .about-list{
 	list-style: none;
@@ -64,18 +108,31 @@ h2 {
 	text-align: center;
 }
 
+.content-project-image-wrapper {
+    text-align: justify-self;
+	padding:4%;
+	position:relative;
+	 width: [width of img];
+	
+}
 
 
 .project-image-wrapper {
 	justify-self: center;
 	padding:4%;
 	position:relative;
+	
 }
+
+
+
+
+
 
 .project-image {
 	border-radius: 5px;
 	box-shadow: 0 4px 6px 0 rgba(34, 60, 80, 0.16);
-	transition: all ease-in-out .2%
+	transition: all ease-in-out .2%;
 	
 }
 
@@ -91,14 +148,17 @@ h2 {
 
 .project-image-wrapper >h3 {
 	position: absolute;
-	top:50%;
-	left:50%;
-	transform: translate(-50%, -50%);
+	top:30%;
+	left:30%;
+	right:30%;
+	transform: translate(-40%, -50%, -50%);
 	color: white;
 	visibility:hidden;
 	z-index: 2;
 	transition: all ease-in-out .2%;
+	
 }
+
 
 .socialmedia{
 	height: 40px;
@@ -110,7 +170,7 @@ h2 {
 
 .projects-grid{
 	display: grid;
-	grid-template-columns:50% 50%;
+	grid-template-columns:40% 40% 40%;
 }
 
 @media (max-width: 650px) {
@@ -181,5 +241,3 @@ hr {
 	height: 1px;
 	background-image: linear-gradient( to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0) );
 }
-
-
